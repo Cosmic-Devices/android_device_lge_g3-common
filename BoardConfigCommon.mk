@@ -101,6 +101,9 @@ TARGET_RIL_VARIANT := caf
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
+#TWRP
+TW_THEME := portrait_hdpi
+
 # Recovery
 BOARD_NO_SECURE_DISCARD := true
 BOARD_SUPPRESS_EMMC_WIPE := true
