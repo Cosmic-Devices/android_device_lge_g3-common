@@ -92,6 +92,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap \
     camera.msm8974
+    
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.stagefright.codecremote=false
 
 # Display
 PRODUCT_PACKAGES += \
