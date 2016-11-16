@@ -45,6 +45,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.qmi.adb_logmask=0 \
     persist.qcril.disable_retry=true \
     ro.use_data_netmgrd=true
+    
+# Media
+    media.stagefright.legacyencoder=true
+    media.stagefright.less-secure=true
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
